@@ -5,6 +5,7 @@ CityLife is a flexible, high-fidelity simulation that allows users to define com
 This tool allows each vehicle and pedestrian to operate with basic intelligence that governs the \emph{low-level} controls needed to maneuver, avoiding collisions, navigating corners, stopping at traffic lights, etc. The high-level controls for each agent then allows the user to define behaviors in an abstract form controlling their sequence of actions (e.g., hurry to this intersection, then cross the road, turn left at the park, following that wait for a bus at the stop, etc.), their speed changes in different legs of the journey, their stopping distances, their susceptibility to be influenced by their environment and their risk taking behavior.
 
 [Paper](...)
+
 [Dataset](...)
 
 ### About the Environment
