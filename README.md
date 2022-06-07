@@ -26,8 +26,11 @@ $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENAR
 ## Run the CitylifeSim
 * Set up CityLifeSim python client environment
   * Install Anaconda and Open Anaconda Prompt
-  * Run conda env create -f \CityLife_v1\citylifesim.yaml to create the conda env for CityLifeSim
-  * Run conda activate citylifesim
+  * Create the conda env for CityLifeSim
+   ```bash
+   conda env create -f \CityLife_v1\citylifesim.yaml
+   conda activate citylifesim
+  ```
 
 * Run the CityEnv.exe
   * Please check [AirSim guide](https://microsoft.github.io/AirSim/settings/) on how to move around in the enviroment in different modes(ComputerVision, Car, Multirotor)
