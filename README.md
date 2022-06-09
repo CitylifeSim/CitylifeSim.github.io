@@ -68,4 +68,4 @@ The following Colab downloads CityLifeSim into your drive, applies a SoTA MOT an
 We leverage the work of (Zhang et al., 2021).
 For more details please refer to the paper or dive into the code...
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/CityLifeSimMotEvaluation.ipynb](https://colab.research.google.com/drive/1_h8Hg8GB5zn5BDX_7UsCXoFjVqdKD8LG#scrollTo=q0qp1V66powb&uniqifier=1))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/CityLifeSimMotEvaluation.ipynb](https://colab.research.google.com/drive/1_h8Hg8GB5zn5BDX_7UsCXoFjVqdKD8LG?usp=sharing))
