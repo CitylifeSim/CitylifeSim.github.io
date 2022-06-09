@@ -6,7 +6,7 @@ Here we provide python code for generating and running scenarios using the simul
 The dataset contains videos (RGB, depth, segmentation frames) of six scenarios. There a total of 128 pedestrians in each video. One of the scenarios is captured from 17 different points of view (i.e., cameras) to simulate static view points, the others are captured from cameras on moving autonomous vehicles. 
 Here are the download link for each scenario: 
 
-* 17 cameras covering different waypoints and points of interest. [CCTV](https://drive.google.com/file/d/19QBinjMNjjNiHbNwdiix9sOkx2T29vrd/view?usp=sharing)
+* 17 cameras covering different waypoints and points of interest. [CCTV](https://drive.google.com/file/d/1lZWYIObz4HGp87YTetgoMrbIn-jfflgW/view?usp=sharing)
 * the front camera on a car during sunny weather. [car_sunny](https://drive.google.com/file/d/1MakOLo3e2XHk3hDgmuIZDAl5dwpQYSeo/view?usp=sharing)
 * the front camera on a car during rainy weather. [car_weather](https://drive.google.com/file/d/1KtDhfqQaPbNx4BcbdCLG5DKuc0Uf0361/view?usp=sharing)
 * the front cameras on a car during snowy weather. [car_snowy](https://drive.google.com/file/d/1by29iSKW6X943yHjvJVFepo2JDp7Ep42/view?usp=sharing)
