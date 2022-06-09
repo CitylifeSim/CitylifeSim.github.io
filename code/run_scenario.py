@@ -74,23 +74,24 @@ def DroneControl(c, duration=20):
 
 	cam_idx = 0
 	wp_idx = 0
-	if useAirSimRecord:
+	if isRecording and useAirSimRecord:
 		c.startRecording()
 	while wp_idx < len(waypoints):
 		ind = 0
 		t_end = time.time() + duration
 		result = c.moveToPositionAsync(waypoints[wp_idx][0] , waypoints[wp_idx][1], z , 3, 120, airsim.DrivetrainType.ForwardOnly, airsim.YawMode(False,0), 20, 1).join()
-		while time.time() < t_end:		
-			SaveRGBD("0", ind) # "0": front_center camera, # "3": downward camera
-			ind += 1
+		while time.time() < t_end:
+			if isRecording and not useAirSimRecord:
+				SaveRGBD("0", ind) # "0": front_center camera, # "3": downward camera
+				ind += 1
 		wp_idx += 1
-	if useAirSimRecord:
+	if isRecording and useAirSimRecord:
 		c.stopRecording()
 
 
 def CCTVCameraControl(c, duration=15):
 	cam_idx = 0
-	if useAirSimRecord:
+	if isRecording and useAirSimRecord:
 		c.startRecording()
 	while cam_idx < len(cams):
 		ind = 0
@@ -98,11 +99,11 @@ def CCTVCameraControl(c, duration=15):
 		came_pose = c.simGetObjectPose(cams[cam_idx])
 		c.simSetCameraPose(0, came_pose)
 		while time.time() < t_end:
-			if not useAirSimRecord:			
+			if isRecording and not useAirSimRecord:			
 				SaveRGBD("0", ind) # "0": default camera
 				ind += 1
 		cam_idx += 1
-	if useAirSimRecord:
+	if isRecording and useAirSimRecord:
 		c.stopRecording()
 
 # ComputerVision or Car mode
@@ -110,13 +111,13 @@ def UserControl(c, duration=15):
 	cam_idx = 0
 	ind = 0
 	t_end = time.time() + duration
-	if useAirSimRecord:
+	if isRecording and useAirSimRecord:
 		c.startRecording()
 	while time.time() < t_end:
-		if not useAirSimRecord:
+		if isRecording and not useAirSimRecord:
 			SaveRGBD("0", ind)
 			ind += 1
-	if useAirSimRecord:
+	if isRecording and useAirSimRecord:
 		c.stopRecording()
 
 
@@ -231,10 +232,9 @@ if __name__ == "__main__":
 			os.mkdir(segSaveDir)
 
 	if(args.cam_mode == "drone"):
+		c.enableApiControl(True)
 		DroneControl(c)
 	elif(args.cam_mode == "cctv"):
 		CCTVCameraControl(c)
 	else:
 		UserControl(c)
-
-
