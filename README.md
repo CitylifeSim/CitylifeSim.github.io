@@ -1,5 +1,5 @@
-# CitylifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors
-This is the official code repository to accompany the paper "CitylifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors".
+# CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors
+This is the official code repository to accompany the paper "CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors".
 Here we provide python code for generating and running scenarios using the simulation environment as well as links to the datasets and code used for running our experiments
 
 ## Dataset Download:
@@ -13,8 +13,8 @@ Here are the download link for each scenario:
 * the front camera on a drone.[drone_front](https://drive.google.com/file/d/19fVTnfQiY-_YHoBQR7-qbsyrSLnPJZK3/view?usp=sharing)
 * a camera pointing down from a drone. [drone_downward](https://drive.google.com/file/d/1S7sFj7MWWvWAP_B-pgRmoVxcqtoI1j4I/view?usp=sharing)
 
-## CitylifeSim Download
-You can download the CitylifeSim executable [here](https://1drv.ms/u/s!AsGKWIA1OsCvpVjc4_8OckZMVUKN?e=9Lum0t)
+## CityLifeSim Download
+You can download the CityLifeSim executable [here](https://1drv.ms/u/s!AsGKWIA1OsCvpVjc4_8OckZMVUKN?e=9Lum0t)
 
 ## Generate Your Own Pedestrians Scenarios:
 * [code/generate_scenario.py](https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/generate_scenario.py) provides an example of how to programmatically create scenarios. (TRAVERSE_TYPE: random, a_star)
@@ -23,7 +23,7 @@ $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENAR
 ```
 * [CityLife_randomwalk_128_v6.csv](https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/CityLife_randomwalk_128_v6.csv) shows an example of the CSV output that is generated.
 
-## Run the CitylifeSim
+## Run the CityLifeSim
 * Set up CityLifeSim python client environment
   * Install Anaconda and Open Anaconda Prompt
   * Create the conda env for CityLifeSim
@@ -31,6 +31,7 @@ $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENAR
    conda env create -f \CityLife_v1\citylifesim.yml
    conda activate citylifesim
   ```
+* CityLifeSim python client currently runs on **AirSim 1.5.0 verion**. Newer version won't work due to the syntx change for some AirSim API.
 
 * Run the CityEnv.exe
   * Please check [AirSim guide](https://microsoft.github.io/AirSim/settings/) on how to move around in the enviroment in different modes(ComputerVision, Car, Multirotor)
