@@ -62,3 +62,8 @@ $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENAR
  ```bash
   $ python vis_bbox.py --folder <RGB-D FOLDER> --image_id <RGB_IMAGE_ID>
  ``` 
+
+## Multi-object Tracking using ByteTrack (Zhang et al., 2021) and MOTChallenge evaluation
+The following Colab downloads CityLifeSim into your drive, applies a SoTA MOT and evaluate it. For more details please refer to the paper.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/CityLifeSimMotEvaluation.ipynb)
