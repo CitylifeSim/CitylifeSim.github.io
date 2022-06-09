@@ -28,7 +28,7 @@ $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENAR
   * Install Anaconda and Open Anaconda Prompt
   * Create the conda env for CityLifeSim
    ```bash
-   conda env create -f \CityLife_v1\citylifesim.yaml
+   conda env create -f \CityLife_v1\citylifesim.yml
    conda activate citylifesim
   ```
 
