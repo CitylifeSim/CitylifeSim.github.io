@@ -17,7 +17,7 @@ Here are the download link for each scenario:
 You can download the CitylifeSim executable [here](https://1drv.ms/u/s!AsGKWIA1OsCvpVjc4_8OckZMVUKN?e=9Lum0t)
 
 ## Generate Your Own Pedestrians Scenarios:
-* [code/generate_scenario.py](https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/generate_scenario.py) provides an example of how to programmatically create scenarios.
+* [code/generate_scenario.py](https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/code/generate_scenario.py) provides an example of how to programmatically create scenarios. (TRAVERSE_TYPE: random, a_star)
 ```bash
 $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENARIO_FILE_NAME>.csv
 ```
@@ -34,12 +34,13 @@ $ python generate_scenario.py --traverse_type <TRAVERSE_TYPE> --out_file <SCENAR
 
 * Run the CityEnv.exe
   * Please check [AirSim guide](https://microsoft.github.io/AirSim/settings/) on how to move around in the enviroment in different modes(ComputerVision, Car, Multirotor)
-  * Modify the settings.json in Documents\AirSim based on your needs.
+  * Modify the settings.json in Documents\AirSim based on your needs. (Use ComputerVision mode in the setting.json for cctv mode)
+  * **ComputerVision** mode in the setting.json for testing cctv camera mode, **Car** mode in the setting.json for car camera mode, **Multirotor** mode in the setting for drome cam mode 
 
 * Prepare pedestrians scenarios
   * Put the scenario csv file in the \CityLifeSim\WindowsNoEditor\CityEnv\Saved folder
 
-* Run the pedestrian scenarios simluation
+* Run the pedestrian scenarios simluation (CAM_MODE: cctv, car, drone)
  ```bash
   $ python run_scenario.py --ped_scenario <SCENARIO_FILE_NAME> --cam_mode <CAM_MODE> --recording
  ```
