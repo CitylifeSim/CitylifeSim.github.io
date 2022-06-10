@@ -10,7 +10,7 @@ This tool allows each vehicle and pedestrian to operate with basic intelligence 
 Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco (submitted) "CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors" Neurips 2022
 
 Video
-<iframe src="https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/preview" width="600 height="440" allow="autoplay"></iframe>
 
 ### Dataset
 The dataset contains videos (RGB, depth, segmentation frames) of six scenarios. There a total of 128 pedestrians in each video. One of the scenarios is captured from 17 different points of view (i.e., cameras) to simulate static view points, the others are captured from cameras on moving autonomous vehicles. 
