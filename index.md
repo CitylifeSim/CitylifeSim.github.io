@@ -6,11 +6,11 @@ Here we provide python code for generating and running scenarios using the simul
 CityLife is a flexible, high-fidelity simulation that allows users to define complex scenarios with essentially unlimited actors, including both pedestrians and vehicles. 
 This tool allows each vehicle and pedestrian to operate with basic intelligence that governs the \emph{low-level} controls needed to maneuver, avoiding collisions, navigating corners, stopping at traffic lights, etc. The high-level controls for each agent then allows the user to define behaviors in an abstract form controlling their sequence of actions (e.g., hurry to this intersection, then cross the road, turn left at the park, following that wait for a bus at the stop, etc.), their speed changes in different legs of the journey, their stopping distances, their susceptibility to be influenced by their environment and their risk taking behavior.
 
-[Paper] ()
+[Paper] (...)
 Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco (submitted) "CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors" Neurips 2022
 
-[Video] ()
-(https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/view)
+Video
+<iframe src="https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ### Dataset
 The dataset contains videos (RGB, depth, segmentation frames) of six scenarios. There a total of 128 pedestrians in each video. One of the scenarios is captured from 17 different points of view (i.e., cameras) to simulate static view points, the others are captured from cameras on moving autonomous vehicles. 
