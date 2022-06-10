@@ -9,7 +9,7 @@ This tool allows each vehicle and pedestrian to operate with basic intelligence 
 [Paper](...)
 
 [Video]
-[![IMAGE ALT TEXT HERE](https://github.com/CitylifeSim/CitylifeSim.github.io/video.PNG)](https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/view)
+[![Video of CityLifeSim](https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/video.PNG)](https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/view)
 
 <iframe src="https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/preview" width="640" height="480" allow="autoplay"></iframe>
 
