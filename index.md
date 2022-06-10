@@ -8,8 +8,6 @@ This tool allows each vehicle and pedestrian to operate with basic intelligence 
 
 [Paper](...)
 
-[Dataset](https://github.com/CitylifeSim/CitylifeSim.github.io)
-
 
 ### Dataset
 The dataset contains videos (RGB, depth, segmentation frames) of six scenarios. There a total of 128 pedestrians in each video. One of the scenarios is captured from 17 different points of view (i.e., cameras) to simulate static view points, the others are captured from cameras on moving autonomous vehicles. 
@@ -81,3 +79,5 @@ For more details please refer to the paper or dive into the code...
 
 
 ## Contributors
+Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco 
+Microsoft Research
