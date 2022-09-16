@@ -82,5 +82,5 @@ For more details please refer to the paper or dive into the code...
 
 
 ## Contributors
-Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco 
-Microsoft Research
+<!--Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco 
+Microsoft Research-->
