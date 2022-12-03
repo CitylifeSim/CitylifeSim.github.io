@@ -7,7 +7,7 @@ CityLife is a flexible, high-fidelity simulation that allows users to define com
 This tool allows each vehicle and pedestrian to operate with basic intelligence that governs the \emph{low-level} controls needed to maneuver, avoiding collisions, navigating corners, stopping at traffic lights, etc. The high-level controls for each agent then allows the user to define behaviors in an abstract form controlling their sequence of actions (e.g., hurry to this intersection, then cross the road, turn left at the park, following that wait for a bus at the stop, etc.), their speed changes in different legs of the journey, their stopping distances, their susceptibility to be influenced by their environment and their risk taking behavior.
 
 [Paper] (...)
-Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco (submitted) "CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors" Neurips 2022
+Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco (2022) "CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors" IEEE ICIR
 
 Video
 <iframe src="https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/preview" width="560" height="315" allow="autoplay"></iframe>
@@ -82,5 +82,5 @@ For more details please refer to the paper or dive into the code...
 
 
 ## Contributors
-<!--Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco 
-Microsoft Research-->
+Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco 
+Microsoft Research
