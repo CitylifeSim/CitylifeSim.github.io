@@ -6,8 +6,9 @@ Here we provide python code for generating and running scenarios using the simul
 CityLife is a flexible, high-fidelity simulation that allows users to define complex scenarios with essentially unlimited actors, including both pedestrians and vehicles. 
 This tool allows each vehicle and pedestrian to operate with basic intelligence that governs the \emph{low-level} controls needed to maneuver, avoiding collisions, navigating corners, stopping at traffic lights, etc. The high-level controls for each agent then allows the user to define behaviors in an abstract form controlling their sequence of actions (e.g., hurry to this intersection, then cross the road, turn left at the park, following that wait for a bus at the stop, etc.), their speed changes in different legs of the journey, their stopping distances, their susceptibility to be influenced by their environment and their risk taking behavior.
 
-[Paper] (...)
-Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco (2022) "CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors" IEEE ICIR
+[Paper] (https://github.com/CitylifeSim/CitylifeSim.github.io/blob/main/CityLifeSim_A_High-Fidelity_Pedestrian_and_Vehicle_Simulation_with_Complex_Behaviors.pdf)
+Cheng Yao Wang,  Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala,  Ashish Kapoor,  Mar Gonzalez-Franco (2022)" CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors," 2022 IEEE 2nd International Conference on Intelligent Reality (ICIR), Piscataway, NJ, USA, 2022, pp. 11-16, doi: 10.1109/ICIR55739.2022.00018.
+https://ieeexplore.ieee.org/abstract/document/10070899
 
 Video
 <iframe src="https://drive.google.com/file/d/1HzDDNNBiDJH3pginjnWD6ZoLsC5pzE-l/preview" width="560" height="315" allow="autoplay"></iframe>
